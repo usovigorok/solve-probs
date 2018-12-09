@@ -5,7 +5,6 @@ import Menu from "./components/menu";
 import Services from "./components/services/services";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles.css";
 
 function App() {
