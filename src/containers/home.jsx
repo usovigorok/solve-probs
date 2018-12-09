@@ -1,6 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Menu from "../components/menu.jsx";
 import Content from "../components/home/content.jsx";
 
 const Home = () => {
