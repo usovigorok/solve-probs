@@ -1,39 +1,54 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Menu = function () {
+const Menu = function() {
   return (
-    <div className="" id="navbarContent">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <ul className="nav">
-          <li className="nav-item">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand" href="#">
+        Solve Probs
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon" />
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
             <NavLink className="nav-link active" to="/">
               Home
-          </NavLink>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link active" to="/session">
+            <NavLink className="nav-link" to="/session">
               Book session
-          </NavLink>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link active" to="/services">
+            <NavLink className="nav-link" to="/services">
               Services
-          </NavLink>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link active" to="/about">
+            <NavLink className="nav-link" to="/about">
               About us
-          </NavLink>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link active" to="/conacts">
+            <NavLink className="nav-link" to="/conacts">
               Contacts
-          </NavLink>
+            </NavLink>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
