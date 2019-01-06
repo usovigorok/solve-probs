@@ -1,12 +1,21 @@
-import React from "react";
+import React, { Component } from "react";
+import "./services.css";
 
-const Services = () => {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-xs-12 col-md-12">Our services!!!</div>
+class Services extends Component {
+  render() {
+    const height = `${window.innerHeight}px`;
+    return (
+      <div className="cover-image" style={{ height }}>
+        <ul className="list-group">
+          <li className="list-group-item">Relationships</li>
+          <li className="list-group-item">Love</li>
+          <li className="list-group-item">Self-confidence</li>
+          <li className="list-group-item">Motivation</li>
+          <li className="list-group-item">Harmony</li>
+        </ul>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
+
 export default Services;

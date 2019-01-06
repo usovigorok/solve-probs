@@ -1,0 +1,31 @@
+.cover-image {
+  background: url(https://firebasestorage.googleapis.com/v0/b/solve-probs.appspot.com/o/rob-mulally-123849-unsplash.jpg?alt=media&token=7d3c2197-9475-4a50-bb0c-698eb62476de)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.list-group-item {
+  background-color: transparent;
+  /* border-top: 1px solid #ddd; */
+  /* border-radius: 0; */
+  border: none;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 2rem;
+}
+
+.list-group-item:hover {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  color: #212529;
+  text-shadow: none;
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  border: none;
+  cursor: pointer;
+}
